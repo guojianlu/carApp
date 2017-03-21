@@ -1,0 +1,30 @@
+
+<!--<div class="carList-main">-->
+  <!--<div class="p-r te-c bc-w head-bar">-->
+    <!--<span class="bar-back p-a">&lt;</span>-->
+    <!--<span class="bar-title">停车场</span>-->
+  <!--</div>-->
+  <!--<ul class="bc-w">-->
+    <!--<li ng-repeat="car in carPosition ">-->
+      <!--<h3 ng-bind="car.name"></h3>-->
+      <!--<p>距离您00km</p>-->
+    <!--</li>-->
+  <!--</ul>-->
+<!--</div>-->
+<ion-view view-title="停车场">
+<ion-content class="content">
+ <ion-list>
+   <ion-item class="item item-icon-right" ng-repeat="item in items" ui-sref="detail({id:item.id})">
+
+     <div class="right">
+       <img class="directiveImg" src="./img/directive.png" alt="">
+       <div class="go">到这去</div>
+     </div>
+
+     <div class="stopName">{{item.name}}</div>
+     <div>距离为{{item.distence}}米</div>
+
+   </ion-item>
+ </ion-list>
+</ion-content>
+</ion-view>

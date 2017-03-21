@@ -1,0 +1,130 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+.p-r{
+  position: relative;
+}
+.p-a{
+  position: absolute;
+}
+.te-c{
+  text-align: center;
+}
+.va-m{
+  vertical-align: middle;
+}
+.bc-w{
+  background-color: #fff;
+}
+.map{
+  width: 100%;
+  height: 100%;
+}
+.search{
+  padding:10px 10px;
+  width: 100%;
+  height: 63px;
+  background: #CACACA;
+  position: relative;
+}
+.search input{
+  display: inline;
+  padding-left: 15px;
+  border-radius: 16px;
+  background-color:#fefcfc;
+  width: 80%;
+  height: 42px;
+}
+.search img{
+  position: absolute;
+  top: 20px;
+  right: 32px;
+}
+
+/*停车列表样式*/
+.content{
+  background-color:rgb(214,215,215);
+}
+
+.right{
+  float: right;
+}
+.directiveImg{
+  width: 25px;
+  height: 25px;
+}
+.go{
+  font-size: 16px;
+}
+
+/*登录页样式*/
+
+.loginBack{
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/loginBack.png");
+}
+.wenzi{
+  color: #fff;
+  font-size: 2em;
+  margin-top:30%;
+  margin-left: 40%;
+}
+
+.mylist{
+  width: 70%;
+  height: 3em;
+  margin-left: 15%;
+  margin-top: 15%;
+}
+.myitem{
+  border: solid 1px #fff;
+  background-color: inherit;
+  border-radius: 3.5em;
+  margin-top: 5%;
+}
+.myitem span{
+  color: #fff;
+}
+.lijilogin{
+  color: #fff;
+  height: inherit;
+  line-height: 2.2em;
+  margin-left: 30%;
+}
+.footer{
+  color: #fff;
+  margin-top: 3%;
+  margin-left: 65%;
+}
+
+
+
+/*.carList-main ul li img{*/
+  /*height: 36px;*/
+  /*width: 36px;*/
+/*}*/
+/*.head-bar{*/
+  /*font-size:25px;*/
+  /*height: 45px;*/
+  /*line-height: 45px;*/
+  /*padding: 0 15px;*/
+/*}*/
+/*.bar-back{*/
+  /*left: 15px;*/
+  /*font-size: 35px;;*/
+/*}*/
+/*.carList-main{*/
+  /*background-color: rgb(214,215,215);*/
+/*}*/
+/*.carList-main ul li{*/
+  /*margin-left: 15px;*/
+  /*border-bottom: 1px solid rgb(214,215,215);*/
+/*}*/
+
