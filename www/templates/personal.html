@@ -1,0 +1,37 @@
+<ion-view>
+  <ion-header-bar align-title="meddle" class="map-head">
+    <div>
+      <span class="my-bar" ng-click="barBack()">&lt;</span>
+    </div>
+    <h1 class="title">个人详情设置</h1>
+  </ion-header-bar>
+  <!--<div class="bar bar-header bar-calm">-->
+    <!--<button class="button icon-left ion-chevron-left button-clear button-dark" ng-click="barBack()"></button>-->
+    <!--<h1 class="title">个人详情设置</h1>-->
+  <!--</div>-->
+  <ion-content class="me">
+    <img ng-src="./img/top_img.png" class="topImg">
+    <ion-list>
+      <label class="item item-input">
+        <span class="input-label"> 姓名：</span>
+        <input type="text" ng-model="personalData.name">
+      </label>
+      <label class="item item-input item-select">
+        <span class="input-label">性别：</span>
+        <select ng-model="personalData.sex">
+          <option value="m">男</option>
+          <option value="f">女</option>
+        </select>
+      </label>
+      <label class="item item-input">
+        <span class="input-label">邮箱：</span>
+        <input type="email" ng-model="personalData.email">
+      </label>
+    </ion-list>
+    <div class="te-c">
+      <button class="button button-calm p_button">
+        确认
+      </button>
+    </div>
+  </ion-content>
+</ion-view>

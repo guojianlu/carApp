@@ -1,10 +1,23 @@
-<ion-view view-title="停车场详情">
-  <ion-content>
-    {{id}}
+<ion-view ng-init="detailInit()">
+  <ion-header-bar align-title="meddle" class="map-head">
+    <div>
+      <span class="my-bar" ng-click="barBack()">&lt;</span>
+    </div>
+    <h1 class="title">停车场详情</h1>
+  </ion-header-bar>
+  <ion-content class="carDetail">
+    <img class="car-img" ng-src="./img/p1.png" alt=""/>
+    <p ng-bind="carDetail.name"></p>
+    <div class="bg-w carDesp"><img ng-src="./img/posiIcon.png" alt="" ><span ng-bind="carDetail.description"></span></div>
+    <p>预测当前停车位:{{carDetail.space}}个</p>
+    <pre>
+  温馨提示：
+    请在停车场500m范围内点击进入停车场
+    当前停车场停车费为：￥{{carDetail.price}}/小时
+    进入停车场后请在 我->待支付界面进行缴费
+    </pre>
+    <div class="te-c">
+      <button class="button button-calm go-login" ng-bind="isLogin?'进入停车场':'去登陆'" ng-click="inOrLogin()" ng-disabled="isIn"></button>
+    </div>
   </ion-content>
-
-  <ion-footer-bar>
-    <button class="button button-calm" ng-click="go()">去登陆</button>
-  </ion-footer-bar>
-
 </ion-view>

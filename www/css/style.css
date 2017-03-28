@@ -7,6 +7,9 @@ html,body{
   width: 100%;
   height: 100%;
 }
+.bg-w{
+  background-color: #fff;
+}
 .p-r{
   position: relative;
 }
@@ -22,29 +25,13 @@ html,body{
 .bc-w{
   background-color: #fff;
 }
+/*地图*/
 .map{
   width: 100%;
   height: 100%;
 }
-.search{
-  padding:10px 10px;
-  width: 100%;
-  height: 63px;
-  background: #CACACA;
-  position: relative;
-}
-.search input{
-  display: inline;
-  padding-left: 15px;
-  border-radius: 16px;
-  background-color:#fefcfc;
-  width: 80%;
-  height: 42px;
-}
-.search img{
-  position: absolute;
-  top: 20px;
-  right: 32px;
+.map-head{
+  background-color: rgb(248,248,248);
 }
 
 /*停车列表样式*/
@@ -62,7 +49,6 @@ html,body{
 .go{
   font-size: 16px;
 }
-
 /*登录页样式*/
 
 .loginBack{
@@ -79,6 +65,7 @@ html,body{
 
 .mylist{
   width: 70%;
+  height: 100%;
   height: 3em;
   margin-left: 15%;
   margin-top: 15%;
@@ -98,33 +85,175 @@ html,body{
   line-height: 2.2em;
   margin-left: 30%;
 }
+.goRegister{
+  color: #fff;
+  margin-top: 6%;
+  margin-left: 6%;
+  float: left;
+}
 .footer{
   color: #fff;
-  margin-top: 3%;
-  margin-left: 65%;
+  margin-top: 6%;
+  margin-right: 6%;
+  float: right;
 }
 
+/*注册页样式*/
+.registerBack{
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/registerBack.png");
+  background-size: 100% 100%;
+}
+.listAll{
+  width: 60%;
+  /*height: 100%;*/
+  margin-left: 20%;
+  margin-top: 65%;
+}
+.itemstyle{
+  width: 100%;
+  background-color: transparent;
+}
+.registerpSmallPig{
+  width: 2em;
+  height: 2em;;
+  float: left;
+  background-size: 100% 100%;
+}
+.commomInput{
+  float:left;
+  margin-left: 5%;
+  background-color: transparent;
+  /*font-size: 2em;*/
+  /*line-height:2em;*/
+  /*background-color: transparent;*/
+}
+.line{
+  width: 100%;
+  height: 2.5em;
+  border: solid 0.15em #4a4b4b;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
 
+.Tel{
+  background-image: url("../img/regisTel.png");
+}
+.Pass{
+  background-image: url("../img/registerPassword.png");
+}
+.rePass{
+  background-image: url("../img/registerPassword.png");
+}
 
-/*.carList-main ul li img{*/
-  /*height: 36px;*/
-  /*width: 36px;*/
-/*}*/
-/*.head-bar{*/
-  /*font-size:25px;*/
-  /*height: 45px;*/
-  /*line-height: 45px;*/
-  /*padding: 0 15px;*/
-/*}*/
-/*.bar-back{*/
-  /*left: 15px;*/
-  /*font-size: 35px;;*/
-/*}*/
-/*.carList-main{*/
-  /*background-color: rgb(214,215,215);*/
-/*}*/
-/*.carList-main ul li{*/
-  /*margin-left: 15px;*/
-  /*border-bottom: 1px solid rgb(214,215,215);*/
-/*}*/
+.registerButton{
+  color: #fff;
+  border-radius: 8em;
+  width: 100%;
+  height: 3.5em;
+  background-color: #0b79ab;
+}
+.registerButton span{
+  font-size: 2em;
+  position: relative;
+  top: 30%;;
+  left:38%;
+}
+.regisCode{
+  margin-bottom: 5%;
+}
+.regisCodeInput{
+  width: 48%;
+  line-height: 47px;
+  background-color: #d6e4eb;
+  border-style: none;
+  /*display: inline;*/
+}
+.regisCodeButton{
+  width: 50%;
+  font-size: 13px;
+  border-style: none;
+}
 
+/* 停车场详情页*/
+.carDetail{
+  background-color:#d8dddf;
+}
+.my-bar{
+  border-style: none;
+  background-color: rgb(248,248,248);
+  font-size: 25px;;
+}
+.carDetail p{
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 50px;
+  padding-left: 16px;
+}
+.car-img{
+  width: 100%;
+}
+.carDetail pre{
+  background-color: #fff;
+  font-size: 16px;
+  padding-top: 10px;
+}
+.go-login{
+  width: 60%;
+  border-radius: 5em;
+  margin-top: 50px;
+}
+.carDesp{
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+.carDesp img{
+  margin-top: 10px;
+}
+.carDesp span{
+  margin-top: 14px;
+}
+/*我*/
+.me{
+  background-image: url("../img/me_bg.png");
+  background-size: cover;
+  /*margin-top: 25px;*/
+}
+/* 个人详情*/
+.p_button{
+  width: 60%;
+  border-radius: 5em;
+  margin-top: 50px;
+}
+.bg-b{
+  background-color: #198db8;
+}
+/*车牌号绑定*/
+.carNumBind{
+  background-image: url("../img/me_bg.png");
+  background-size: cover;
+}
+.carCode{
+  height: 80px;
+  padding-top: 15px;
+}
+.carNumInput{
+  margin-bottom: 4%;
+  margin-top: 2%;
+  height: 70px;
+}
+.car_input{
+  height: 47px;
+  background-color: #e2dede;
+  margin-left: 4%;
+}
+.car_but{
+  margin-left: 5%;
+}
+.topImg{
+  width: 100%;
+}

@@ -1,21 +1,4 @@
 [
-  {"id":10,
-    "name":"hahah",
-    "description":"1234",
-    "postion_X":14.5,
-    "postion_Y":238.1,
-    "space":10,
-    "price":2.5,
-    "image":""
-  },
-  {
-    "id":7,
-    "name":"王liu",
-    "description":"停车场",
-    "postion_X":145.5,
-    "postion_Y":23.4,
-    "space":15,
-    "price":5,
-    "image":""
-  }
+{"id":0,"name":"奥体中心","description":"金色大道南800m","postion_X":116.368904,"postion_Y":39.923423,"space":10,"price":2.5,"image":"./img/p1.png"},
+{"id":1,"name":"营盘街","description":"金色大道西50m","postion_X":145.500000,"postion_Y":23.400000,"space":15,"price":5,"image":"./img/p1.png"}
 ]

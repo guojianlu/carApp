@@ -1,0 +1,24 @@
+<ion-view>
+  <ion-header-bar align-title="meddle" class="map-head">
+    <div>
+      <span class="my-bar" ng-click="barBack()">&lt;</span>
+    </div>
+    <h1 class="title">车牌号绑定</h1>
+  </ion-header-bar>
+  <ion-content class="carNumBind">
+    <img ng-src="./img/top_img.png" class="topImg">
+    <ion-item class="item item-input carNumInput">
+      <label class="input-label">请输入车牌号：</label>
+      <input type="text"/>
+    </ion-item>
+    <div class="bg-w carCode">
+      <input class="car_input"/>
+      <buntton class="button button-calm car_but">请输入验证码</buntton>
+    </div>
+    <div class="te-c">
+      <button class="button button-calm p_button">
+        确认
+      </button>
+    </div>
+  </ion-content>
+</ion-view>
